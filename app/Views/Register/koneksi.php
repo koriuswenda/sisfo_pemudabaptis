@@ -1,11 +1,11 @@
 <?php
 $hostname = "localhost:8080";
 $username = "root";
-$name = "";
-$level = "";
+// $name = "";
+// $level = "";
 $password = "";
-$database = "db_pemudabaptis";
+$databasename = "db_pemudabaptis";
 
-$conn = mysqli_connect("$hostname", "$username", "$name", "$level", "$password");
+$conn = mysqli_connect("$hostname", "$username", "$password");
 if (!$connect) die("Gagal Melakukan Koneksi");
 mysqli_select_db($db, $connect) or die("Database Tidak Ditemukan di Server");

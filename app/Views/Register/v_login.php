@@ -11,7 +11,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/fontawesome-free/css/all.min.css">
     <!-- icheck bootstrap -->
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/plugins/check-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/dist/css/adminlte.min.css">
 </head>
@@ -19,13 +19,13 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="<?= base_url() ?>" class="logo-logo"><b>Web </b>Pemuda-Baptis</a>
+            <a href="<?= base_url() ?>" class="logo-logo"><b>Siakad</b>Pemudabaptis</a>
 
         </div>
 
         <!-- /.login-logo -->
         <div class="card">
-            <img src="assets/dist/img/baptis5.jpg" class="img-circle btn-sm" alt="Cinque Terre">
+            <img src="assets/dist/img/p.jpg" class="img-circle btn-sm" alt="Cinque Terre">
             <div class="card-body login-card-body">
                 <p class="login-box-msg btn-sm"><b>Silahakan Masuk</b></p>
 
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="input-group mb-3">
+                    <!-- <div class="input-group mb-3">
                         <input type="text" class="form-control" name="nama" placeholder="Nama">
                         <div class="input-group-append">
                             <div class="input-group-text">
@@ -53,7 +53,7 @@
                                 <span class="fas fa-inbox"></span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="input-group mb-3">
                         <input type="password" class="form-control" name="password" placeholder="Password">
                         <div class="input-group-append">

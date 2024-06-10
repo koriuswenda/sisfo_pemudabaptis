@@ -28,7 +28,7 @@
                 <p class="login-box-msg">Register a new membership</p>
 
                 <?php
-                echo form_open('home');
+                echo form_open('login');
                 ?>
                 <div class="input-group mb-3">
                     <input name="nama_user" class="form-control" placeholder="nama user">

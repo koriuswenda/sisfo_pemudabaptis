@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\ModelLogout;
+use App\Controllers\ceklogin;
 
 class Logout extends BaseController
 {

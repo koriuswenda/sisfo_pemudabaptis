@@ -7,12 +7,10 @@ include 'koneksi.php';
 
 // menangkap data yang dikirim dari form login
 $username = $_POST['username'];
-$name = $_POST['nama'];
-$level = $_POST['level'];
 $password = $_POST['password'];
 
 // menyeleksi data user dengan username dan password yang sesuai
-$login = mysqli_query($koneksi, "SELECT * FROM Register WHERE BINARY (username = '$username' OR email = '$username') AND BINARY password = '$password'");
+$login = mysqli_query($koneksi, "SELECT * FROM Register WHERE BINARY (username = '$username' OR email = '$username') AND BINARY password = '$password' ");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
 
@@ -20,7 +18,7 @@ $cek = mysqli_num_rows($login);
 if ($ceklogin > 0) {
     $_SESSION['username'] = $username;
     $_SESSION['status'] = "login";
-    header("location:admin/user.php");
+    header("location:v_home.php");
 } else {
-    header("location:index.php?pesan=gagal");
+    header("location:v_home.php?pesan=gagal");
 }

@@ -7,16 +7,21 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 //Home
-// $routes->get('/', 'login::index');
-// $routes->get('/login', 'login::index');
-// //Home
-// $routes->get('/', 'ceklogin::index');
-// $routes->get('/ceklogin', 'ceklogin::index');
+$routes->get('/', 'login::index');
+$routes->get('/login', 'login::index');
+//Home
+$routes->get('/', 'ceklogin::index');
+$routes->get('/ceklogin', 'ceklogin::index');
 
 $routes->get('/', 'home::index');
 $routes->get('/home', 'home::index');
+$routes->post('/', 'home::index');
+$routes->post('/home', 'home::index');
 $routes->get('/', 'login::index');
 $routes->get('/login', 'login::index');
+//masterdata
+$routes->post('/', 'login::index');
+$routes->post('/login', 'login::index');
 //masterdata
 $routes->get('/', 'Masterdata::index');
 $routes->get('/Masterdata', 'Masterdata::index');
@@ -92,8 +97,10 @@ $routes->get('/Logout', 'Logout::index');
 $routes->get('/', 'register::index');
 $routes->get('/register', 'register::index');
 
-// $routes->get('/', 'ceklogin::index');
-// $routes->get('/ceklogin', 'ceklogin::index');
+$routes->get('/', 'ceklogin::index');
+$routes->get('/ceklogin', 'ceklogin::index');
+$routes->post('/', 'ceklogin::index');
+$routes->post('/ceklogin', 'ceklogin::index');
 
 
 $routes->get('/', 'login::index');
