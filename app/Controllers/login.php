@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\ModelLogin;
-use App\Controllers\ceklogin;
+
 
 class Login extends BaseController
 {
