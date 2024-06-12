@@ -16,10 +16,10 @@ class Logout extends BaseController
   public function index()
   {
     $data = [
-      'judul' => 'Logout',
-      'page' => 'Datalogout/v_logout',
+      'judul' => 'Login',
+      'page' => 'Datalogout/v_login',
       'menu' => 'dashboard',
-      'submenu' => 'logout',
+      'submenu' => 'login',
       'Logout' => $this->ModelLogout->AllData(),
     ];
 
